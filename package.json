@@ -1,0 +1,23 @@
+{
+  "name": "animal-carousel",
+  "version": "1.0.0",
+  "description": "display cat and shark pics",
+  "main": "index.js",
+  "scripts": {
+    "install:server": "cd server && npm i",
+    "install:client": "cd client && npm i",
+    "install:all": "npm run install:server && npm run install:client",
+    "client:dev": "cd client && npm run dev",
+    "server:dev": "cd server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasham7861/animal-carousel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasham7861/animal-carousel/issues"
+  },
+  "homepage": "https://github.com/hasham7861/animal-carousel#readme"
+}
